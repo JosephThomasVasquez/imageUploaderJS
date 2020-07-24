@@ -1,29 +1,47 @@
 body {
+    width: 100%;
+    height: 100vh;
     padding: 0;
     margin: 0;
 }
 
+
 /* Main Container */
 .container {
-    display: block;
+    display: flex;
     width: 100%;
+    padding: 2%;
+    margin: 2%;
+    align-items: center;
+    justify-content: center;
 }
 
 .form-upload {
+    width: 250px;
+    padding: 1% 1%;
+    background-color: #FFF;
+    border: 2px dashed rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.label-title {
     display: block;
     width: 100%;
-    padding-top: 2%;
-    margin: 0 auto;
+    padding: 5% 0;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-size: 2rem;
+}
+
+.image-file {
+    width: 100%;
+    display: none;
 }
 
 .image-view {
-    width: 80%;
-    height: 50vh;
-    margin: 20px auto;
-    background: rgba(0, 0, 0, 0.025);
-    border: 2px solid rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
+    display: flex;
+    width: 100%;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
 }
 
